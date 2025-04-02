@@ -4,6 +4,9 @@ import { Router, Route } from '@solidjs/router';
 
 import './index.css';
 import App from './App';
+import DataPage from './routes/data';
+import LearnPage from './routes/learn';
+import ProtectPage from './routes/protect';
 
 const root = document.getElementById('root');
 
@@ -16,7 +19,8 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 render(() => (
     <Router>
         <Route path="/" component={App} />
-        <Route path="/learn" component={App} />
-        <Route path="/protect" component={App} />
+        <Route path="/data" component={DataPage} />
+        <Route path="/learn" component={LearnPage} />
+        <Route path="/protect" component={ProtectPage} />
         <Route path="*" component={App} />
     </Router>), root);

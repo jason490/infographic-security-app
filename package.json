@@ -21,6 +21,7 @@
     "@fontsource-variable/nunito-sans": "^5.2.5",
     "@fontsource-variable/oxanium": "^5.2.5",
     "@solidjs/router": "^0.15.3",
+    "apexcharts": "^4.5.0",
     "flowbite": "^3.1.2",
     "solid-js": "^1.9.5"
   }

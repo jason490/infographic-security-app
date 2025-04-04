@@ -16,10 +16,10 @@
     --color-primary-700: #1d4ed8;
     --color-primary-800: #1e40af;
     --color-primary-900: #1e3a8a;
+    /* --color-white: var(--color-blue-100); */
 }
 
 body {
-  margin: 0;
   font-family: 'Nunito Sans Variable', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -1,11 +1,11 @@
 import Navbar from "../components/Navbar";
 
-function ProtectPage() {
+function AdministrativePage() {
     return (
         <>
-            <Navbar />
+        <Navbar />
         </>
     );
 }
 
-export default ProtectPage;
+export default AdministrativePage;

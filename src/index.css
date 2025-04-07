@@ -20,16 +20,35 @@
 }
 
 body {
-  font-family: 'Nunito Sans Variable', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Nunito Sans Variable', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
 }
 
 .display-header-font {
     font-family: 'Oxanium Variable', system-ui;
+}
+
+#carousel-indicator {
+    background: var(--color-gray-500);
+    opacity: 0.5;
+
+    &[aria-current="true"] {
+        background: var(--color-gray-500);
+        opacity: 1;
+    }
+}
+
+#carousel-indicator:hover {
+    background: var(--color-gray-500);
+    opacity: 1;
+    &[aria-current="true"] {
+        background: var(--color-gray-500);
+        opacity: 1;
+    }
 }

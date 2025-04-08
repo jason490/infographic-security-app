@@ -5,6 +5,31 @@ import { createSignal, onMount } from "solid-js";
 import { Carousel } from "flowbite";
 
 function DataPage() {
+    var donutoptions = {
+        labels: ['Apple', 'Mango', 'Orange', 'Watermelon'],
+        theme: {
+            palette: 'palette2'
+        },
+        dataLabels: {
+            enabled: false
+        },
+        responsive: [{
+            breakpoint: 480,
+            options: {
+                chart: {
+                    width: 200
+                },
+                legend: {
+                    show: false
+                }
+            }
+        }],
+        legend: {
+            position: 'right',
+            offsetY: 0,
+            height: 230,
+        }
+    };
     const options = {
         title: {
             text: "Number of Data Leaks by Severity",
@@ -32,6 +57,14 @@ function DataPage() {
                     <div class="relative overflow-hidden rounded-lg h-115 min-lg:h-130 xl:h-110 md:h-130">
                         <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
                             <div class="pt-2 m-3 md:m-10 md:mt-15 flex flex-wrap gap-x-9 sm:gap-y-10 flex-row place-content-center">
+                                <div class="self-center p-5 m-4 sm:m-0">
+                                    <h1 class="text-black dark:text-red-700 display-header-font text-5xl sm:text-7xl font-bold">80%</h1>
+                                    <h2 class="text-black dark:text-white text-2xl sm:text-3xl font-bold">of reported security incidents are caused by phishing</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item="">
+                            <div class="pt-2 m-3 md:m-10 md:mt-15 flex flex-wrap gap-x-9 sm:gap-y-10 flex-row place-content-center">
                                 <PeopleStatsIcons class="max-sm:w-50 max-sm:h-50" />
                                 <div class="self-center p-5 m-4 sm:m-0">
                                     <h1 class="text-black dark:text-red-700 display-header-font text-5xl sm:text-7xl font-bold">74%</h1>
@@ -39,14 +72,15 @@ function DataPage() {
                                 </div>
                             </div>
                         </div>
-                        <div class="hidden duration-700 ease-in-out place-content-center" data-carousel-item="">
+                        <div class="hidden duration-700 ease-in-out place-content-center" data-carousel-item>
                             <div class="max-sm:mt-30 h-80 w-80 sm:h-100 sm:w-140 md:h-100 md:w-150 m-auto">
                                 <SolidApexCharts class="" type="bar" options={options} series={series()} />
                             </div>
                         </div>
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        </div>
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <div class="hidden duration-700 ease-in-out place-content-center" data-carousel-item>
+                            <div class="max-sm:mt-30 h-80 w-80 sm:h-100 sm:w-140 md:h-100 md:w-150 m-auto">
+                                <SolidApexCharts class="" type="donut" options={donutoptions} series={[44, 55, 13, 33]} />
+                            </div>
                         </div>
                     </div>
                     <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">

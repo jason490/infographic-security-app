@@ -53,23 +53,20 @@ function DataPage() {
             <Navbar />
             <div class="pt-30 mx-auto">
                 <h1 class="m-3 sm:mb-8 text-center min-w-40 text-black text-4xl sm:text-5xl font-bold dark:text-white display-header-font">Statistics</h1>
-                <div id="indicators-carousel" class="relative lg:m-10 lg:ml-20 lg:mr-20" data-carousel="static">
+                <div id="indicators-carousel" class="relative lg:m-10 lg:ml-20 lg:mr-20 xl:ml-40 xl:mr-40" data-carousel="static">
                     <div class="relative overflow-hidden rounded-lg h-115 min-lg:h-130 xl:h-110 md:h-130">
                         <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                            <div class="pt-2 m-3 md:m-10 md:mt-15 flex flex-wrap gap-x-9 sm:gap-y-10 flex-row place-content-center">
-                                <div class="self-center p-5 m-4 sm:m-0">
-                                    <h1 class="text-black dark:text-red-700 display-header-font text-5xl sm:text-7xl font-bold">80%</h1>
-                                    <h2 class="text-black dark:text-white text-2xl sm:text-3xl font-bold">of reported security incidents are caused by phishing</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item="">
                             <div class="pt-2 m-3 md:m-10 md:mt-15 flex flex-wrap gap-x-9 sm:gap-y-10 flex-row place-content-center">
                                 <PeopleStatsIcons class="max-sm:w-50 max-sm:h-50" />
                                 <div class="self-center p-5 m-4 sm:m-0">
                                     <h1 class="text-black dark:text-red-700 display-header-font text-5xl sm:text-7xl font-bold">74%</h1>
                                     <h2 class="text-black dark:text-white text-2xl sm:text-3xl font-bold">of security breachs involve of human error</h2>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item="">
+                            <div class="pt-2 m-3 md:m-10 md:mt-15 flex flex-wrap gap-x-9 sm:gap-y-10 flex-row place-content-center">
+                                <h2 class="text-black dark:text-white text-2xl sm:text-3xl font-bold">Businesses lose $17,700 per minute due to phishing attacks </h2>
                             </div>
                         </div>
                         <div class="hidden duration-700 ease-in-out place-content-center" data-carousel-item>

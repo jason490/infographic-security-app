@@ -66,7 +66,7 @@ function DataPage() {
                         </div>
                         <div class="hidden duration-700 ease-in-out" data-carousel-item="">
                             <div class="pt-2 m-3 md:m-10 md:mt-15 flex flex-wrap gap-x-9 sm:gap-y-10 flex-row place-content-center">
-                                <h2 class="text-black dark:text-white text-2xl sm:text-3xl font-bold">Businesses lose $17,700 per minute due to phishing attacks </h2>
+                                <h2 class="text-black dark:text-white text-2xl sm:text-3xl font-bold">Businesses lose <span class="text-red-700 font-bold">$17,700</span> per minute due to phishing attacks </h2>
                             </div>
                         </div>
                         <div class="hidden duration-700 ease-in-out place-content-center" data-carousel-item>

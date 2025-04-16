@@ -9,7 +9,7 @@ function Navbar() {
     const activelink = "cursor-not-allowed block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500";
     const inactivelink = "block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent";
     return (
-        <nav class="bg-white border-gray-200 dark:bg-gray-800 fixed w-full z-20 top-0 start-0">
+        <nav class="z-10000 bg-white border-gray-200 dark:bg-gray-800 fixed w-full z-20 top-0 start-0">
             <div class="max-w-screen-xl flex flex-wrap items-center max-md:justify-between mx-auto p-4">
                 <a href="/" class="ml-5 md:mr-10 flex items-center place-items-center justify-center space-x-2 rtl:space-x-reverse">
                     <svg class="self-center text-gray-700 dark:text-blue-200" width="30" height="30" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">

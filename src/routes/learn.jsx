@@ -83,6 +83,9 @@ function LearnPage() {
                         </div>
                     </div>
                 </div>
+                <h1 class="dark:text-white text-center text-4xl font-bold display-header-font">
+                    Testing
+                </h1>
             </div>
         </div>
     );

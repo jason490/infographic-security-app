@@ -10,7 +10,7 @@ function LearnPage() {
                 <div class="flex flex-wrap flex-row gap-x-30 gap-y-10 justify-center p-9 pt-7 lg:p-15 lg:pt-15 xl:pt-25">
                     <div>
                         <div class="h-full max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                            <a href="/learn/physical">
+                            <a href="#physical">
                                 <div class="flex sm:gap-x-2">
                                     <h2 class={secondHeaderClass}>Physical</h2>
                                     <svg class="text-gray-800 dark:text-blue-100" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="none" viewBox="0 0 24 25">
@@ -24,7 +24,7 @@ function LearnPage() {
                                     to a place or object. For example, a security guard in the front desk asking
                                     for ids or putting your passport in a safe.
                                 </p>
-                                <a href="https://keepnetlabs.com/blog/What-is-PhysicalSecurity-Importance-Examples-and-Measures" class="self-start place-self-start inline-flex items-center px-3 py-2 text-sm font-bold text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                <a href="#physical" class="self-start place-self-start inline-flex items-center px-3 py-2 text-sm font-bold text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                     Learn more
                                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -35,7 +35,7 @@ function LearnPage() {
                     </div>
                     <div>
                         <div class="h-full flex flex-col place-content-between max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                            <a href="/learn/technical">
+                            <a href="#technical">
                                 <div class="flex gap-x-3">
                                     <h2 class={secondHeaderClass}>Technical</h2>
                                     <svg class="text-gray-800 dark:text-blue-100" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="none" viewBox="0 0 24 25">
@@ -48,7 +48,7 @@ function LearnPage() {
                                 security system. For example, windows defender is a anti-malware software that detects and trys to remove
                                 threats or a firewall that is configured to prevent any outside users from having access.
                             </p>
-                            <a href="https://www.savelan.fi/en/what-technical-security-means/" class="self-start inline-flex items-center px-3 py-2 text-sm font-bold text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            <a href="#technical" class="self-start inline-flex items-center px-3 py-2 text-sm font-bold text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Learn more
                                 <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -58,7 +58,7 @@ function LearnPage() {
                     </div>
                     <div class="">
                         <div class="h-full max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                            <a href="/learn/administrative">
+                            <a href="#admin">
                                 <div class="flex gap-x-3">
                                     <h2 class={secondHeaderClass}>Administrative</h2>
                                     <svg class="self-center text-gray-800 dark:text-blue-100" width="25" height="50" viewBox="0 0 197 350" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +73,7 @@ function LearnPage() {
                                     For example, it is rpi's policy is to wait for the door to
                                     close and have the next person scan in.
                                 </p>
-                                <a href="https://purplesec.us/learn/security-controls/#elementor-toc__heading-anchor-4" class="self-start inline-flex items-center px-3 py-2 text-sm font-bold text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                <a href="#admin" class="self-start inline-flex items-center px-3 py-2 text-sm font-bold text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                     Learn more
                                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -83,9 +83,79 @@ function LearnPage() {
                         </div>
                     </div>
                 </div>
-                <h1 class="dark:text-white text-center text-4xl font-bold display-header-font">
-                    Testing
-                </h1>
+                <div class="ml-15 mr-15 lg:ml-100 lg:mr-100">
+                    <div class="mt-10 lg:mt-22">
+                        <h1 id="physical" class="dark:text-white text-4xl font-bold display-header-font">
+                            Physical Security
+                        </h1>
+                        <p class="dark:text-white text-lg mt-3">
+                            Physical Security it the implementation of security measures in a defined structure used to deter or prevent unauthorized access.
+                            This usually comes in the form of physical barriers or visible cameras to block or deter people with unauthorized access.
+                        </p>
+                        <h2 class="dark:text-white text-2xl font-bold display-header-font mt-4">
+                            Examples:
+                        </h2>
+                        <ul class="dark:text-white list-disc text-lg mt-3 ml-5">
+                            <li>
+                                Security guards
+                            </li>
+                            <li>
+                                Motion or thermal alarm systems
+                            </li>
+                            <li>
+                                Biometrics (fingerprints, voice, face, iris, etc)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-20 lg:mt-30">
+                        <h1 id="technical" class="dark:text-white text-4xl font-bold display-header-font">
+                            Technical Security Controls
+                        </h1>
+                        <p class="dark:text-white text-lg mt-3">
+                            The most basic level of technical security, which is also known as logical controls, use technology
+                            to reduce/remove threats in both hardware and software. Its usually automated tools to detect these
+                            vulnerabilites or it can just both configuration of the the software.
+                        </p>
+                        <h2 class="dark:text-white text-2xl font-bold display-header-font mt-4">
+                            Examples:
+                        </h2>
+                        <ul class="dark:text-white list-disc text-lg mt-3 ml-5">
+                            <li>
+                                Antivirus and anti-malware software (windows defender, bitwarden, etc)
+                            </li>
+                            <li>
+                                Firewalls (set specific rules to block external access of the firewall)
+                            </li>
+                            <li>
+                                Encryption (makes sure no one is able to see your message)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-20 mb-10 lg:mt-30">
+                        <h1 id="admin" class="dark:text-white text-4xl font-bold display-header-font">
+                            Administrative Security/Controls
+                        </h1>
+                        <p class="dark:text-white text-lg mt-3">
+                            Administrative controls usually refers policies, procedures, or guidelines that defines personnel
+                            or business practices that align with the organizations security goals. This can come in the form of
+                            laws, where there is a punshiment for not following it.
+                        </p>
+                        <h2 class="dark:text-white text-2xl font-bold display-header-font mt-4">
+                            Examples:
+                        </h2>
+                        <ul class="dark:text-white list-disc text-lg mt-3 ml-5">
+                            <li>
+                                GDPR (General data protection right)
+                            </li>
+                            <li>
+                                Acceptable use policy (making sure that companies devices are only used for work activities)
+                            </li>
+                            <li>
+                                RPI Policy stating that students, facualty, and staff cannot open the door for others and have to ensure the door closes before the next person comes in
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     );
